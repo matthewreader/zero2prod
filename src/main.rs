@@ -1,4 +1,4 @@
-use actix_web::{web, App, HttpRequest, HttpServer, Responder, HttpResponse};
+use actix_web::{web, App, HttpRequest, HttpResponse, HttpServer, Responder};
 use std::net::TcpListener;
 use zero2prod::run;
 
